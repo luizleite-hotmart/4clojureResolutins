@@ -9,3 +9,5 @@
 ;(= __ (let [x 21] (let [y 3] (/ x y))))
 ; let will assign 21 to 'x' and 3 to 'y'  after this will divide x/y result equals 7
 (= 7 (let [x 21] (let [y 3] (/ x y))))
+
+(= 7 7)
